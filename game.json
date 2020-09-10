@@ -1,0 +1,397 @@
+{
+    "passages": [
+      {
+        "text": "Welcome to Monster Capture!\n\nA wild monster, known as the Wumpus, is loose in the area, and it's your job to capture and kill it before getting eaten. Travel \naround the map, and when you have figured out which\nlocation the monster is in, you will sneak up on the monster and shoot it with your laser! If you find the monster and kill it, you win! Make sure to\nkeep track of where you have been, I've heard this place is like a maze... constantly going in circles and dead ends.  \n\n[[Go North->Hangar]]\n[[Go West->Storage]]\n",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Hangar",
+            "pid": "2"
+          },
+          {
+            "name": "Go West",
+            "link": "Storage",
+            "pid": "3"
+          }
+        ],
+        "name": "Control Room",
+        "pid": "1",
+        "position": {
+          "x": "573",
+          "y": "68"
+        }
+      },
+      {
+        "text": "You approach the ship hangar, where tons of ships are docked and are ready to leave. This room is very echoey because of big it actually is. There are faint sounds of ship doors closing and opening, but you cannot tell which ship they are coming from. As you are investigating each ship, you notice some tools are knocked over, and decide to continue on in that direction.\n\n[[Go North->Bay]]\n[[Go West->Gallery]]\n[[Go East->Kitchen]]\n[[Go South->Control Room]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Bay",
+            "pid": "4"
+          },
+          {
+            "name": "Go West",
+            "link": "Gallery",
+            "pid": "5"
+          },
+          {
+            "name": "Go East",
+            "link": "Kitchen",
+            "pid": "6"
+          },
+          {
+            "name": "Go South",
+            "link": "Control Room",
+            "pid": "1"
+          }
+        ],
+        "name": "Hangar",
+        "pid": "2",
+        "position": {
+          "x": "215",
+          "y": "233"
+        }
+      },
+      {
+        "text": "As you approach the storage room, you see that the door is partially cracked open, however you have not been in there yet. You open the door and find tons of boxes, weapons, and tools all over the place. Even the spare food is knocked over, but as you get closer to where the food is at you can see that some of it has been eaten, box and all. The monster must have came through here at some point!\n\n[[Go North->Bay]]\n[[Go East->Hangar]]\n[[Go South->Control Room]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Bay",
+            "pid": "4"
+          },
+          {
+            "name": "Go East",
+            "link": "Hangar",
+            "pid": "2"
+          },
+          {
+            "name": "Go South",
+            "link": "Control Room",
+            "pid": "1"
+          }
+        ],
+        "name": "Storage",
+        "pid": "3",
+        "position": {
+          "x": "896",
+          "y": "220"
+        }
+      },
+      {
+        "text": "You come wandering into the Bay, where the big pallets and containers of spare parts and items are located. All of these containers/pallets are organized by sections, all lined up perfectly to make these narrow walkways in between them. As you are walking through these narrow hallways, you come across one container that has its straps gnawed off and some of the parts are spread across the floor. You decide to clean up the mess, and then head off in that direction.\n\n[[Go North->Gallery]]\n[[Go East->Kitchen]]\n[[Go West->Basement]]\n[[Go South->Storage]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Gallery",
+            "pid": "5"
+          },
+          {
+            "name": "Go East",
+            "link": "Kitchen",
+            "pid": "6"
+          },
+          {
+            "name": "Go West",
+            "link": "Basement",
+            "pid": "7"
+          },
+          {
+            "name": "Go South",
+            "link": "Storage",
+            "pid": "3"
+          }
+        ],
+        "name": "Bay",
+        "pid": "4",
+        "position": {
+          "x": "94",
+          "y": "430"
+        }
+      },
+      {
+        "text": "Approaching the Gallery, you notice some green slime on the flood heading inside. You enter the Gallery, and you get to see some beautiful views of space, passing by the Milky Way galaxy, flying through the constellation known as Orion the Hunter. This scenic view captures your attention so much that you almost forget what you were doing. You remember you were tracking the monster, and you can actually hear some loud clattering and growling near by. You can even smell the monster very profusely. He must be close!\n\n[[Go North->Arcade]]\n[[Go West->Kitchen]]\n[[Go East->Library]]\n[[Go South->Hangar]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Arcade",
+            "pid": "8"
+          },
+          {
+            "name": "Go West",
+            "link": "Kitchen",
+            "pid": "6"
+          },
+          {
+            "name": "Go East",
+            "link": "Library",
+            "pid": "9"
+          },
+          {
+            "name": "Go South",
+            "link": "Hangar",
+            "pid": "2"
+          }
+        ],
+        "name": "Gallery",
+        "pid": "5",
+        "position": {
+          "x": "504",
+          "y": "442"
+        }
+      },
+      {
+        "text": "Moving forward, you approach the double doors to the Kitchen. It's cold, quite, and dark in here. There does not seem to be anything out of the ordinary in here. You see light coming from a few different direction up ahead, but you check around one last time. Still don't find anything suspicious, and you decide to move on down one of the ways that the light is coming from. \n\n[[Go North->Dining Hall]]\n[[Go East->Storage]]\n[[Go South->Control Room]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Dining Hall",
+            "pid": "10"
+          },
+          {
+            "name": "Go East",
+            "link": "Storage",
+            "pid": "3"
+          },
+          {
+            "name": "Go South",
+            "link": "Control Room",
+            "pid": "1"
+          }
+        ],
+        "name": "Kitchen",
+        "pid": "6",
+        "position": {
+          "x": "794",
+          "y": "446"
+        }
+      },
+      {
+        "text": "You haven't been down to the basement in ages. However, the door appears to be open, and no one else is around. This is a good sign that the Wumpus has been down here! Heading down the stairs, you catch the smell from the monster, and you can hear it nearby! It sounds like the monster is feasting on something... or SOMEONE! You can see long trails on the green slime, so you can try and follow those to find the Wumpus! You start running in the direction of the slime.\n\n[[Go North->Library]]\n[[Go West->Control Room]]\n[[Go East->Bedroom]]\n[[Go South->Bay]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Library",
+            "pid": "9"
+          },
+          {
+            "name": "Go West",
+            "link": "Control Room",
+            "pid": "1"
+          },
+          {
+            "name": "Go East",
+            "link": "Bedroom",
+            "pid": "11"
+          },
+          {
+            "name": "Go South",
+            "link": "Bay",
+            "pid": "4"
+          }
+        ],
+        "name": "Basement",
+        "pid": "7",
+        "position": {
+          "x": "64",
+          "y": "672"
+        }
+      },
+      {
+        "text": "Blinding lights and loud music is all you can hear as you approach the Arcade. As you enter, there are strobing, colorful lights everywhere and on every machine. There are unused coins on some of the machines, such as Space Invaders.... who wouldn't use their coins on Space Invaders?! Anyway, it's too loud in here with all of the dubstep music, so you need to move to another location! There's a few different routes, but you are unsure of which way to go, as some could be a dead-end.\n\n[[Go North->Hangar]]\n[[Go East->Disposal]]\n[[Go South->Gallery]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Hangar",
+            "pid": "2"
+          },
+          {
+            "name": "Go East",
+            "link": "Disposal",
+            "pid": "12"
+          },
+          {
+            "name": "Go South",
+            "link": "Gallery",
+            "pid": "5"
+          }
+        ],
+        "name": "Arcade",
+        "pid": "8",
+        "position": {
+          "x": "260",
+          "y": "744"
+        }
+      },
+      {
+        "text": "Approaching the Library, you hear the monster.... He's inside!!! The library almost like a labyrinth of books, but you notice the green slime trail! You start running, following the trail around every corner and down every path until you stumble across the Wumpus! You see him eating one of your crewmates and decide to take action! You whip out your blaster, charge it to full capacity, and fire it at the monster! BOOM.... You hit the Wumpus directly in the head, killing it on impact! It's all over... you can safely travel home and let everyone know what has happened during your space journey. \n\n",
+        "name": "Library",
+        "pid": "9",
+        "position": {
+          "x": "523",
+          "y": "739"
+        }
+      },
+      {
+        "text": "The Dining Hall appears to have been set with food that is half eaten and utensils on the table. Some of the chairs appeared to be pulled out, and some are completely knocked over. It almost seems as if people were leaving in a hurry or running away from something that was coming after them. As you look on the floor, you see a little bit of green slime from the monster. Could the monster have eaten the other crewmates?! Up ahead are a few corridors leading in different directions.\n\n[[Go North->Bedroom]]\n[[Go West->Storage]]\n[[Go South->Kitchen]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Bedroom",
+            "pid": "11"
+          },
+          {
+            "name": "Go West",
+            "link": "Storage",
+            "pid": "3"
+          },
+          {
+            "name": "Go South",
+            "link": "Kitchen",
+            "pid": "6"
+          }
+        ],
+        "name": "Dining Hall",
+        "pid": "10",
+        "position": {
+          "x": "973",
+          "y": "558"
+        }
+      },
+      {
+        "text": "The Bedroom light appears to be on, but no one is in the room. Your personal belongings have been knocked over, and your desk has been smashed. The monster definitely came through here at some point. You see that your 1st edition, holographic charizard has been all smashed and wrinkled up. You are steaming with anger because that card was your pride and joy. You are determined to find the Wumpus, and destroy him once and for all. You hear something faint, but are not sure which way to take.\n\n[[Go North->Deck]]\n[[Go West->Attic]]\n[[Go East->Bay]]\n[[Go South->Basement]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Deck",
+            "pid": "13"
+          },
+          {
+            "name": "Go West",
+            "link": "Attic",
+            "pid": "14"
+          },
+          {
+            "name": "Go East",
+            "link": "Bay",
+            "pid": "4"
+          },
+          {
+            "name": "Go South",
+            "link": "Basement",
+            "pid": "7"
+          }
+        ],
+        "name": "Bedroom",
+        "pid": "11",
+        "position": {
+          "x": "823",
+          "y": "713"
+        }
+      },
+      {
+        "text": "Walking down the hall, you see the Disposal room. You enter and see a crusher, as well as a shoot that blasts the garbage from the ship. No development seems to have happened down here, so choose a new way to go or go back the way you just came in order to find the Wumpus.\n\n[[Go North->Control Room]]\n[[Go West->Kitchen]]\n[[Go South->Arcade]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Control Room",
+            "pid": "1"
+          },
+          {
+            "name": "Go West",
+            "link": "Kitchen",
+            "pid": "6"
+          },
+          {
+            "name": "Go South",
+            "link": "Arcade",
+            "pid": "8"
+          }
+        ],
+        "name": "Disposal",
+        "pid": "12",
+        "position": {
+          "x": "101",
+          "y": "911"
+        }
+      },
+      {
+        "text": "Upon entering the Deck, you can see out of the windows that we are now passing by some more stars. No time for star-gazing this time though. Continuing on through the Deck, you don't see much other than a few tables and chairs that don't seem to be disturbed. However, you can hear some faint noise from somewhere nearby; maybe it will be a room near the monster.\n\n[[Go North->Arcade]]\n[[Go West->Brig]]\n[[Go East->Dining Hall]]\n[[Go South->Bedroom]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Arcade",
+            "pid": "8"
+          },
+          {
+            "name": "Go West",
+            "link": "Brig",
+            "pid": "15"
+          },
+          {
+            "name": "Go East",
+            "link": "Dining Hall",
+            "pid": "10"
+          },
+          {
+            "name": "Go South",
+            "link": "Bedroom",
+            "pid": "11"
+          }
+        ],
+        "name": "Deck",
+        "pid": "13",
+        "position": {
+          "x": "529",
+          "y": "864"
+        }
+      },
+      {
+        "text": "The attic is cold, and very dark. As you open the hatch to the attic, a thick layer of dust swirls around in the air. You can tell nothing has been up here in ages, and you decide to turn back around and go a different direction. You must find the monster! He destroyed your favorite Pokemon card!\n\n[[Go South->Bedroom]]",
+        "links": [
+          {
+            "name": "Go South",
+            "link": "Bedroom",
+            "pid": "11"
+          }
+        ],
+        "name": "Attic",
+        "pid": "14",
+        "position": {
+          "x": "898",
+          "y": "863"
+        }
+      },
+      {
+        "text": "The sound grows louder as you get closer to the Brig. When you enter the Brig, you look around and see empty cells, with what appears to be blood. The Wumpus must have come through here and eaten the prisoners. Other than the blood, it's just a cold, empty, ominous room, and you are getting the chills. What would happen if you got locked in one of these cells forever, never to be heard from again? Anyway, you continue to follow the sound to try and find the monster; it must be stopped!\n\n\n[[Go North->Basement]]\n[[Go West->Disposal]]\n[[Go South->Deck]]",
+        "links": [
+          {
+            "name": "Go North",
+            "link": "Basement",
+            "pid": "7"
+          },
+          {
+            "name": "Go West",
+            "link": "Disposal",
+            "pid": "12"
+          },
+          {
+            "name": "Go South",
+            "link": "Deck",
+            "pid": "13"
+          }
+        ],
+        "name": "Brig",
+        "pid": "15",
+        "position": {
+          "x": "389",
+          "y": "1038"
+        }
+      }
+    ],
+    "name": "Hunt the Wumpus",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "85371FAB-ACBE-4EFA-8110-AE1ACFE1F92D"
+  }
